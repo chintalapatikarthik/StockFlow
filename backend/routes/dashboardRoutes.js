@@ -13,3 +13,4 @@ router.get('/', getDashboardStats);
 router.get('/low-stock', getLowStockProducts);
 
 module.exports = router;
+

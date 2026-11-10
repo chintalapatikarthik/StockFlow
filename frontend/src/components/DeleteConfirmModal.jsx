@@ -48,3 +48,4 @@ const DeleteConfirmModal = ({ isOpen, onClose, onConfirm, product, loading = fal
 };
 
 export default DeleteConfirmModal;
+

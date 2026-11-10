@@ -38,3 +38,4 @@ const Toast = ({ message, type = 'success', onClose, duration = 4000 }) => {
 };
 
 export default Toast;
+

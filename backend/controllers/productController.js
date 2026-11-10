@@ -444,3 +444,4 @@ module.exports = {
   deleteProduct,
   adjustStock
 };
+

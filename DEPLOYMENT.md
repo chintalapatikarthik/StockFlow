@@ -149,3 +149,4 @@ After deploying both services, run the following verification checks:
 - **CORS Errors**: Ensure `FRONTEND_URL` on Render matches your exact Vercel URL (e.g. `https://stockflow-mvp.vercel.app` without a trailing slash). The backend CORS middleware also supports `.vercel.app` preview domains automatically.
 - **TiDB Cloud Connection Timeout**: Ensure `DB_SSL=true` is set and the TiDB cluster IP whitelist allows `0.0.0.0/0` (standard for serverless backends like Render).
 - **Page Refresh 404 on Vercel**: Ensure `frontend/vercel.json` is present in the repository and the root directory in Vercel project settings is set to `frontend`.
+

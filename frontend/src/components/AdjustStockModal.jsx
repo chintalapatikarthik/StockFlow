@@ -187,3 +187,4 @@ const AdjustStockModal = ({ isOpen, onClose, onAdjust, product }) => {
 };
 
 export default AdjustStockModal;
+

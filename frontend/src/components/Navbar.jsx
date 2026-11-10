@@ -30,3 +30,4 @@ const Navbar = ({ title, subtitle }) => {
 };
 
 export default Navbar;
+

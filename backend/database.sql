@@ -45,3 +45,4 @@ CREATE TABLE IF NOT EXISTS products (
     INDEX idx_products_organization (organization_id),
     INDEX idx_products_sku (sku)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+

@@ -21,3 +21,4 @@ router.delete('/:id', deleteProduct);
 router.patch('/:id/adjust-stock', adjustStock);
 
 module.exports = router;
+

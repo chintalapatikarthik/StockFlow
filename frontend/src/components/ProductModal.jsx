@@ -293,3 +293,4 @@ const ProductModal = ({ isOpen, onClose, onSave, product = null, defaultOrgThres
 };
 
 export default ProductModal;
+
