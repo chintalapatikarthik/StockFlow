@@ -1,0 +1,24 @@
+{
+  "name": "stockflow",
+  "version": "1.0.0",
+  "description": "StockFlow – SaaS Multi-Tenant Inventory Management System",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:start": "npm --prefix backend start",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed",
+    "migrate": "npm --prefix backend run migrate"
+  },
+  "keywords": [
+    "inventory",
+    "saas",
+    "stockflow",
+    "react",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "chintalapatikarthik",
+  "license": "ISC"
+}
