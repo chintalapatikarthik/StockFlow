@@ -5,7 +5,7 @@ import {
   Package, 
   Boxes, 
   AlertTriangle, 
-  DollarSign, 
+  IndianRupee, 
   ArrowRight, 
   ArrowUpDown, 
   CheckCircle2, 
@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import AdjustStockModal from '../components/AdjustStockModal';
 import Toast from '../components/Toast';
+import { formatINR } from '../utils/currency';
 
 const Dashboard = () => {
   const [stats, setStats] = useState({
@@ -177,11 +178,11 @@ const Dashboard = () => {
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Est. Stock Value</span>
             <div className="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
-              <DollarSign className="w-5 h-5" />
+              <IndianRupee className="w-5 h-5" />
             </div>
           </div>
           <div className="mt-4 flex items-baseline justify-between">
-            <p className="text-3xl font-extrabold text-slate-900 tracking-tight">${stats.totalInventoryValue}</p>
+            <p className="text-3xl font-extrabold text-slate-900 tracking-tight">{formatINR(stats.totalInventoryValue)}</p>
             <span className="text-xs text-slate-400 font-medium">at cost price</span>
           </div>
         </div>

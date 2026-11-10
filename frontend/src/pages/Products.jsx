@@ -14,6 +14,7 @@ import ProductModal from '../components/ProductModal';
 import AdjustStockModal from '../components/AdjustStockModal';
 import DeleteConfirmModal from '../components/DeleteConfirmModal';
 import Toast from '../components/Toast';
+import { formatINR } from '../utils/currency';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -253,16 +254,12 @@ const Products = () => {
 
                       {/* Cost Price */}
                       <td className="py-4 px-6 text-slate-600 font-medium">
-                        {p.cost_price !== null && p.cost_price !== undefined 
-                          ? `$${parseFloat(p.cost_price).toFixed(2)}` 
-                          : '—'}
+                        {formatINR(p.cost_price)}
                       </td>
 
                       {/* Selling Price */}
                       <td className="py-4 px-6 text-slate-900 font-semibold">
-                        {p.selling_price !== null && p.selling_price !== undefined 
-                          ? `$${parseFloat(p.selling_price).toFixed(2)}` 
-                          : '—'}
+                        {formatINR(p.selling_price)}
                       </td>
 
                       {/* Action buttons */}

@@ -188,10 +188,10 @@ A seed script is included to quickly initialize the official technical recruitme
 
 | Product Name | SKU | Quantity | Cost Price | Selling Price | Threshold | Status |
 |---|---|---|---|---|---|---|
-| **Rice** | `RICE001` | 50 | $40.00 | $50.00 | 5 | In Stock |
-| **Sugar** | `SUGAR001` | 4 | $35.00 | $45.00 | 5 | **Low Stock** (4 &le; 5) |
-| **Oil** | `OIL001` | 2 | $100.00 | $120.00 | 5 | **Low Stock** (2 &le; 5) |
-| **Biscuits** | `BISC001` | 30 | $10.00 | $15.00 | 5 | In Stock |
+| **Rice** | `RICE001` | 50 | ₹40.00 | ₹50.00 | 5 | In Stock |
+| **Sugar** | `SUGAR001` | 4 | ₹35.00 | ₹45.00 | 5 | **Low Stock** (4 &le; 5) |
+| **Oil** | `OIL001` | 2 | ₹100.00 | ₹120.00 | 5 | **Low Stock** (2 &le; 5) |
+| **Biscuits** | `BISC001` | 30 | ₹10.00 | ₹15.00 | 5 | In Stock |
 
 ### Expected Dashboard Summary
 - **Total Products**: `4`

@@ -200,7 +200,7 @@ const ProductModal = ({ isOpen, onClose, onSave, product = null, defaultOrgThres
             {/* Cost Price */}
             <div>
               <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
-                Cost Price ($)
+                Cost Price (₹)
               </label>
               <input
                 type="number"
@@ -217,7 +217,7 @@ const ProductModal = ({ isOpen, onClose, onSave, product = null, defaultOrgThres
             {/* Selling Price */}
             <div>
               <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
-                Selling Price ($)
+                Selling Price (₹)
               </label>
               <input
                 type="number"
